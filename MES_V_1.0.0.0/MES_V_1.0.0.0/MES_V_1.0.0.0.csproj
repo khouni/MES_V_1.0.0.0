@@ -113,9 +113,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\data.core\MES.DATA.CORE.csproj">
-      <Project>{14e99aa6-701a-4022-ba5d-1f0ad4d192e9}</Project>
+    <ProjectReference Include="..\MES.DATA.CORE\MES.DATA.CORE.csproj">
+      <Project>{14E99AA6-701A-4022-BA5D-1F0AD4D192E9}</Project>
       <Name>MES.DATA.CORE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.DATA.INFRASTRUCTURE\MES.DATA.BUSINESS.csproj">
+      <Project>{bcfdc49b-2e4b-496f-b14f-0a4b736ab330}</Project>
+      <Name>MES.DATA.BUSINESS</Name>
     </ProjectReference>
     <ProjectReference Include="..\MES.DATA.MODEL\MES.DATA.MODEL.csproj">
       <Project>{2DC8DEB3-C224-413D-9168-B684A5C34C37}</Project>

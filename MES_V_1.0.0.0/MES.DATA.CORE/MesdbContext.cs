@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace data.core
 {
-    public class MesdbContext : DbContext
+    public class MesDbContext : DbContext
     {
         public DbSet<Machine> Machines { get; set; }
         
