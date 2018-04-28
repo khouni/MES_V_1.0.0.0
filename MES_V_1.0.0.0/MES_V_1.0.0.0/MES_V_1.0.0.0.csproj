@@ -117,7 +117,7 @@
       <Project>{14E99AA6-701A-4022-BA5D-1F0AD4D192E9}</Project>
       <Name>MES.DATA.CORE</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MES.DATA.INFRASTRUCTURE\MES.DATA.BUSINESS.csproj">
+    <ProjectReference Include="..\MES.DATA.BUSINESS\MES.DATA.BUSINESS.csproj">
       <Project>{bcfdc49b-2e4b-496f-b14f-0a4b736ab330}</Project>
       <Name>MES.DATA.BUSINESS</Name>
     </ProjectReference>
