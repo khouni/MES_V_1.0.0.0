@@ -9,8 +9,12 @@ namespace MES_V_1._0._0._0
 {
     class Program
     {
+        /// <summary>
+        /// First Project
+        /// </summary>
         static void Main()
         {
+            
             using (var context = new MesdbContext())
             {
                 // Create database
