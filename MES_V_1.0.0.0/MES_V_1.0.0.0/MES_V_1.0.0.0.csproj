@@ -101,7 +101,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -113,17 +112,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MES.DATA.CORE\MES.DATA.CORE.csproj">
-      <Project>{14E99AA6-701A-4022-BA5D-1F0AD4D192E9}</Project>
-      <Name>MES.DATA.CORE</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MES.DATA.BUSINESS\MES.DATA.BUSINESS.csproj">
       <Project>{bcfdc49b-2e4b-496f-b14f-0a4b736ab330}</Project>
       <Name>MES.DATA.BUSINESS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MES.DATA.CORE\MES.DATA.CORE.csproj">
+      <Project>{14e99aa6-701a-4022-ba5d-1f0ad4d192e9}</Project>
+      <Name>MES.DATA.CORE</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MES.DATA.MODEL\MES.DATA.MODEL.csproj">
       <Project>{2DC8DEB3-C224-413D-9168-B684A5C34C37}</Project>
       <Name>MES.DATA.MODEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MES.MYSQL.DATA.CONNECT\MES.MYSQL.DATA.CONNECT.csproj">
+      <Project>{df3f4960-2df6-4a46-ae7c-9397c227a34a}</Project>
+      <Name>MES.MYSQL.DATA.CONNECT</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
